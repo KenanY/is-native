@@ -1,0 +1,12 @@
+{
+  "name": "is-native",
+  "repo": "KenanY/is-native",
+  "description": "Is native component",
+  "version": "0.0.0",
+  "keywords": ["lodash"],
+  "scripts": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "twitter": "@kyild"
+}

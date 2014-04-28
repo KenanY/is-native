@@ -1,0 +1,24 @@
+{
+  "name": "is-native",
+  "version": "0.0.0",
+  "description": "Is native component",
+  "repository": "KenanY/is-native",
+  "license": "MIT",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE.txt"
+  ],
+  "scripts": {
+    "build": "component build --dev",
+    "components": "component install --dev",
+    "clean": "rm -fr build components"
+  },
+  "component": {
+    "scripts": {
+      "is-native/index.js": "index.js"
+    }
+  },
+  "private": true
+}
